@@ -1,9 +1,1 @@
-# Wolfram olarak algılanan her şeyi dil istatistiğinden çıkar
-*.nb linguist-vendored
-*.m linguist-vendored
-*.wl linguist-vendored
-
-# Unity'nin meta ve asset dosyalarını istatistik dışı tut
-*.meta linguist-vendored
-*.asset linguist-vendored
-*.unity linguist-vendored
+*.cs linguist-detectable=true
