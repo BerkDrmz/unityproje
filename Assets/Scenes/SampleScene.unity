@@ -3405,6 +3405,7 @@ GameObject:
   - component: {fileID: 600819978}
   - component: {fileID: 600819977}
   - component: {fileID: 600819976}
+  - component: {fileID: 600819980}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -3498,6 +3499,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &600819980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600819975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0d4f1b6c5be7249ac268abb1bd03a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  can: 100
 --- !u!1 &608479799
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3524,7 @@ GameObject:
   - component: {fileID: 608479802}
   - component: {fileID: 608479801}
   - component: {fileID: 608479800}
+  - component: {fileID: 608479804}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -3603,6 +3618,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608479804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608479799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0d4f1b6c5be7249ac268abb1bd03a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  can: 100
 --- !u!1 &614507408 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7839644680272242699, guid: 0e51a783b9fe0464897c25ed3bd5f84b,
@@ -5567,6 +5595,7 @@ GameObject:
   - component: {fileID: 980592375}
   - component: {fileID: 980592374}
   - component: {fileID: 980592373}
+  - component: {fileID: 980592377}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -5660,6 +5689,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &980592377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980592372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c0d4f1b6c5be7249ac268abb1bd03a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  can: 100
 --- !u!1 &984071403 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6588243046914430372, guid: 202d7f5ef4caee34e92fce00642afc4b,
@@ -8747,6 +8789,14 @@ MonoBehaviour:
   hareketHizi: 350
   donusHizi: 720
   yercekimi: -800
+  yildirimPrefab: {fileID: 8974203713140315807, guid: 709b0bd6b0b625249a98409dd7a87343,
+    type: 3}
+  vurusEfektiPrefab: {fileID: 0}
+  yetenekHasari: 50
+  saldiriMenzili: 100
+  beklemeSuresi: 10
+  efektGecikmesi: 0.5
+  buyuAnimasyonSuresi: 1.5
 --- !u!143 &1528120067
 CharacterController:
   m_ObjectHideFlags: 0
