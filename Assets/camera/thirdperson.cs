@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ThirdPersonCamera : MonoBehaviour
+public class thirdpersonCamera : MonoBehaviour
 {
     [Header("Takip Edilecek Karakter")]
     public Transform target;
